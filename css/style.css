@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    
+}
+
+.item {
+    width: 100%;
+}
+
+#form-wrapper {
+    /*height: 4rem;*/
+}
+
+.bg-blue-100 {
+    background-color: rgb(224 242 254);
+}
+
+.color-blue-600 {
+    color: rgb(2 132 199);
+}
+
+.bg-green-100 {
+    background-color: rgb(236 252 203);
+}
+
+.color-green-600 {
+    color: rgb(101 163 13);
+}
+
+.bg-orange-100 {
+    background-color: rgb(255 237 213);
+}
+
+.color-orange-600 {
+    color: rgb(245 158 11);
+}
+
+.bg-red-100 {
+    background-color: rgb(254 226 226);
+}
+
+.color-red-600 {
+    color: rgb(220 38 38);
+}
+
+.hide {
+    display: none;
+}
+
+.drag-over {
+    border: dashed 2px #ddd;
+}
+
+i[id^="edit"]:hover {
+    color: #222 !important;
+    transition: color 0.5s ease;
+}
+
+i[id^="close"]:hover {
+    color: #222 !important;
+    transform: scale(1.1);
+    transition: color 0.5s ease;
+    transition: transform 0.25s ease;
+}
+
+#box-todo .card {
+    border-left: 4px solid rgb(224 242 254) !important;
+} 
+
+#box-in-progress .card {
+    border-left: 4px solid rgb(255 237 213) !important;
+} 
+
+#box-paused .card {
+    border-left: 4px solid rgb(254 226 226) !important;
+} 
+
+#box-done .card {
+    border-left: 4px solid rgb(236 252 203) !important;
+} 
